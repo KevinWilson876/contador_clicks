@@ -32,3 +32,11 @@ botaoDiminuir.addEventListener("click", function() {
     }
     
 });
+
+const botaoResetar = document.getElementById("resetar");
+
+botaoResetar.addEventListener("click", function() {
+    contar = 0; // Reseta o contador para 0
+    const contadorElement = document.getElementById("numero");
+    contadorElement.textContent = contar;
+})
